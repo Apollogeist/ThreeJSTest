@@ -54,7 +54,7 @@ var render = function() {
     requestAnimationFrame(render);
 
     // mesh.rotation.x += 0.05;
-    mesh.rotation.y += 0.05;
+    mesh.rotation.y += 0.025;
     if (mesh.rotation.y > Math.PI * 0.5) mesh.rotation.y = -Math.PI * 0.5;
 
     mesh.material.color = new THREE.Color(`hsl(${hue * 360}, 50%, 50%)`);
